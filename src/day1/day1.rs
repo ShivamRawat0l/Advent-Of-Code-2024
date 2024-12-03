@@ -2,7 +2,7 @@
 use std::fs;
 
 pub fn day1() {
-    let contents = fs::read_to_string("src/day1.input.txt").unwrap();
+    let contents = fs::read_to_string("./src/day1/day1.input.txt").unwrap();
     let mut a = Vec::<i32>::new();
     let mut b = Vec::<i32>::new();
     contents.split("\n").for_each(|s| {
